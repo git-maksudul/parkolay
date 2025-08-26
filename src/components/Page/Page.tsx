@@ -144,7 +144,7 @@ const Page = () => {
                                 }}
                             />
                         </div>
-                        <div className='lg:-mx-32 flex gap-5'>
+                        <div className='lg:-mx-32 flex flex-row gap-5'>
                             <div>
                                 <hr className='border border-[#383E42] lg:w-[180px]' />
                                 <p className='text-[16px] text-[#383E42] mt-2.5'>info@parkolay.com</p>
