@@ -104,7 +104,7 @@ const Page1 = () => {
                     </div>
                     <div><p className='font-black mt-2.5 text-[8px] lg:text-base'>*including45 s.usertime</p></div>
                 </div>
-                <div className='lg:mt-10 flex lg:grid'>
+                <div className='lg:mt-10 lg:flex lg:grid'>
                     <h2 className='lg:text-[16px] text-[10px] font-bold'>CAR SIZES</h2>
                     <div className='lg:mt-5 lg:flex items-center justify-around'>
                         <div>

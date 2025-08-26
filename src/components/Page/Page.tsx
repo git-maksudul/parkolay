@@ -69,12 +69,12 @@ const Page = () => {
             <Stack spacing={2} className="w-full">
                 <div className="my-4">{renderPageContent()}</div>
 
-                <div className="flex flex-wrap justify-center gap-2">
-                    <div className='flex items-center gap-52 justify-between'>
-                        <div className='-ml-20'>
-                            <img className='lg:w-[230px]' src={logo} alt="" />
+                <div className="lg:flex flex-wrap justify-center gap-2">
+                    <div className='lg:flex items-center gap-52 justify-between'>
+                        <div className='lg:-ml-20'>
+                            <img className='lg:w-[230px] w-[82px]' src={logo} alt="" />
                         </div>
-                        <div className='-ml-20'>
+                        <div className='lg:-ml-20'>
                             <Pagination
                                 count={pageCount}
                                 page={page}
@@ -144,7 +144,7 @@ const Page = () => {
                                 }}
                             />
                         </div>
-                        <div className='-mx-32 flex gap-5'>
+                        <div className='lg:-mx-32 flex gap-5'>
                             <div>
                                 <hr className='border border-[#383E42] lg:w-[180px]' />
                                 <p className='text-[16px] text-[#383E42] mt-2.5'>info@parkolay.com</p>
