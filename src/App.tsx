@@ -1,12 +1,15 @@
 import './App.css'
+import Header from './components/Header/Header'
 import Page from './components/Page/Page'
 
 function App() {
 
   return (
     <>
-      <h1 className='font-bold text-5xl text-center mt-20'>Hello</h1>
-      <Page></Page>
+      <div className='lg:pt-[80px] lg:mx-[20px] mx-3'>
+        <Header></Header>
+        <Page></Page>
+      </div>
     </>
   )
 }
