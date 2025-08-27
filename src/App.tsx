@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='lg:pt-[80px] lg:mx-[20px] lg:pb-10 mx-3'>
+      <div className='lg:pt-[80px] lg:mx-[80px] lg:pb-10 mx-3'>
         <Header></Header>
         <Page></Page>
       </div>

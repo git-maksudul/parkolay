@@ -8,6 +8,7 @@ import {
 import Page2 from './components/Page2/Page2';
 import Routes from './components/routes/Routes';
 import App from './App';
+import Page3 from './components/Page3/Page3';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/page2",
         element: <Page2></Page2>,
+      },
+      {
+        path: "/page3",
+        element: <Page3></Page3>,
       },
     ],
   },
