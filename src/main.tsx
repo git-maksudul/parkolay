@@ -5,10 +5,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Page2 from './components/Page2/Page2';
 import Routes from './components/routes/Routes';
 import App from './App';
-import Page3 from './components/Page3/Page3';
+import Page51 from './components/Page51/Page51';
 
 const router = createBrowserRouter([
   {
@@ -20,12 +19,8 @@ const router = createBrowserRouter([
         element: <App></App>,
       },
       {
-        path: "/page2",
-        element: <Page2></Page2>,
-      },
-      {
-        path: "/page3",
-        element: <Page3></Page3>,
+        path: "/page51",
+        element: <Page51></Page51>,
       },
     ],
   },
