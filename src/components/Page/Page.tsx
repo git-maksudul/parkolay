@@ -6,7 +6,7 @@ const Page = () => {
     return (
         <div>
             <Page1></Page1>
-            <div className='flex flex-row justify-between mt-10 lg:mt-5 gap-5'>
+            <div className='flex flex-row justify-between mt-12 lg:mt-5 gap-5'>
                 <div>
                     <img className='lg:w-full w-[82px]' src={logo} alt="" />
                 </div>
