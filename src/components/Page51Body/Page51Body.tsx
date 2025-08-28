@@ -8,7 +8,7 @@ const Page51Body = () => {
     return (
         <div className='lg:mx-96'>
             <div className="font-inter lg:flex lg:-ml-[200px] mt-8 lg:mt-0">
-                <div className='lg:w-7/8 lg:mt-4 lg:mx-14'>
+                <div className='lg:w-7/8 w-5/6 mx-auto lg:mt-4 lg:mx-14'>
                     <img className='lg:mx-6' src={img1} alt="" />
                     <img className='lg:mx-4 lg:mt-6' src={img2} alt="" />
                 </div>
