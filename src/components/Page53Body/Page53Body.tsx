@@ -1,17 +1,17 @@
-import img1 from '../../../public/images/page52/Rectangle.png'
+import img1 from '../../../public/images/page53/Rectangle.png'
 import car1 from '../../../public/images/car1.png'
 import car2 from '../../../public/images/car2.png'
 
-const Page52Body = () => {
+const Page53Body = () => {
 
     return (
         <div className='lg:mx-96'>
             <div className="font-inter lg:flex lg:-ml-[200px] mt-8 lg:mt-0">
                 <div className=' w-full mx-auto lg:mt-4 lg:mx-14'>
-                    <img className='lg:-mx-16 lg:w-[102%] lg:h-[105%] lg:max-w-[1000px]' src={img1} alt="" />
+                    <img className='lg:-mx-26 lg:w-[120%] lg:h-[105%] lg:max-w-[1000px]' src={img1} alt="" />
                 </div>
 
-                <div className='flex gap-5 lg:gap-5 lg:grid lg:w-1/8 mt-9 lg:mt-0 lg:mx-[5px]'>
+                <div className='flex gap-5 lg:gap-5 lg:grid lg:w-1/8 mt-5 lg:mt-0 lg:mx-[5px]'>
                     <div className="py-2 w-full max-w-md mx-auto space-y-1.5 lg:space-y-0">
                         <h2 className='lg:text-[16px] text-[10px] font-bold'>CONFIGURATION</h2>
                         <div className='flex text-[10px] lg:text-[16px] justify-between mt-1 lg:mt-2'>
@@ -129,4 +129,4 @@ const Page52Body = () => {
     )
 }
 
-export default Page52Body
+export default Page53Body

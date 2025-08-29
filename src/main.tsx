@@ -9,6 +9,7 @@ import Routes from './components/routes/Routes';
 import App from './App';
 import Page51 from './components/Page51/Page51';
 import Page52 from './components/Page52/Page52';
+import Page53 from './components/Page53/Page53';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/page52",
         element: <Page52></Page52>,
+      },
+      {
+        path: "/page53",
+        element: <Page53></Page53>,
       },
     ],
   },
