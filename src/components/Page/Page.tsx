@@ -15,7 +15,7 @@ const Page = () => {
                         <hr className='lg:border-[0.5px] border-[0.24px] border-[#606568] lg:w-[172px]' />
                         <p className='lg:text-[16px] text-[10px] text-[#606568] mt-0.5 lg:mt-2.5'>info@parkolay.com</p>
                     </div>
-                    <div>
+                    <div className='pb-11 lg:pb-0'>
                         <hr className='lg:border-[0.5px] border-[0.24px] border-[#606568] lg:w-[172px]' />
                         <p className='lg:text-[16px] text-[10px] text-[#606568] mt-0.5 lg:mt-2'>parkolay.com</p>
                     </div>

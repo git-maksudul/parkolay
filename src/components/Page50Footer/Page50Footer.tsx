@@ -1,6 +1,6 @@
 import logo from '../../../public/images/logo.png'
 
-const Page52Footer = () => {
+const Page50Footer = () => {
 
     return (
         <div className='flex flex-row justify-between mt-12 lg:mt-5 gap-5'>
@@ -21,4 +21,4 @@ const Page52Footer = () => {
     );
 };
 
-export default Page52Footer;
+export default Page50Footer;
