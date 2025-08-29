@@ -112,14 +112,14 @@ const Page50Body = () => {
                         <img className='w-[68px] lg:w-[120px]' src={car1} alt="" />
                         <div className='flex items-baseline gap-1 lg:gap-2 mt-2 lg:mt-3'>
                             <p className='lg:text-[16px] text-[10px]'>H:200 cmx</p>
-                            <p className='lg:text-[25px] font-semibold'>90</p>
+                            <p className='lg:text-[25px] font-semibold'>0</p>
                         </div>
                     </div>
                     <div className='lg:mt-4'>
                         <img className='w-[68px] lg:w-[120px]' src={car2} alt="" />
                         <div className='flex items-baseline gap-1 lg:gap-2 mt-3 lg:mt-4'>
                             <p className='lg:text-[16px] text-[10px]'>H:160 cmx</p>
-                            <p className='lg:text-[25px] font-semibold'>348</p>
+                            <p className='lg:text-[25px] font-semibold'>375</p>
                         </div>
                     </div>
                 </div>
