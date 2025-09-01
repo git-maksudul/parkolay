@@ -1,7 +1,7 @@
 import arrow from '../../../public/images/Vector.png';
 import circle from '../../../public/images/page46/circle.png'
 
-const Page46Header = () => {
+const Page47Header = () => {
 
     return (
         <div className='justify-between lg:justify-around flex pt-10 lg:pt-0 lg:mb-[50px]'>
@@ -27,4 +27,4 @@ const Page46Header = () => {
     )
 }
 
-export default Page46Header
+export default Page47Header
