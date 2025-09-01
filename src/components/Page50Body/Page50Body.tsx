@@ -8,7 +8,7 @@ const Page50Body = () => {
         <div className='lg:mx-96'>
             <div className="font-inter lg:flex lg:-ml-[200px] mt-8 lg:mt-0">
                 <div className=' w-full mx-auto lg:mt-4 lg:mx-14'>
-                    <img className='lg:-mx-26 lg:w-[120%] lg:h-[105%] lg:max-w-[1000px]' src={img1} alt="" />
+                    <img className='lg:-mx-26 lg:w-[full] lg:h-[full] lg:max-w-[950px]' src={img1} alt="" />
                 </div>
 
                 <div className='flex gap-5 lg:gap-5 lg:grid lg:w-1/8 mt-5 lg:mt-0 lg:mx-[5px]'>
