@@ -14,6 +14,7 @@ import Page50 from './components/Page50/Page50';
 import Page46 from './components/Page46/Page46';
 import Page47 from './components/Page47/Page47';
 import Page48 from './components/Page48/Page48';
+import Page49 from './components/Page49/Page49';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "/page48",
         element: <Page48></Page48>,
+      },
+      {
+        path: "/page49",
+        element: <Page49></Page49>,
       },
     ],
   },
